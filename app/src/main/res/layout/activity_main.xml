@@ -1,0 +1,33 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.demo.horizontalviewdragger.HorizontalViewDragger
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalViewDragger"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="35sp"
+            android:text="Bottom Layer"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#002fff"/>
+
+        <TextView
+            android:id="@+id/draggableView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="35sp"
+            android:text="Draggable View"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#e00707"/>
+
+    </org.demo.horizontalviewdragger.HorizontalViewDragger>
+
+</FrameLayout>
